@@ -2,10 +2,3 @@ app:
   url: http://tencent.com
 
 
-eureka:
-  instance:
-    prefer-ip-address: true
-    instance-id: ${spring.cloud.client.ip-address}
-  client:
-    service-url:
-      defaultZone: http://127.0.0.1:20000/eureka
