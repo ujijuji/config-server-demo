@@ -1,7 +1,7 @@
 app:
   url: http://baidu.com
   name: baidu-dev
-  version: 555
+  version: 566
 
 #eureka:
 #  instance:
