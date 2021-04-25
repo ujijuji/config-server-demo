@@ -1,12 +1,10 @@
 app:
-  url: http://baidu.com
-  name: baidu-dev
+  url: http://application-dev.com
+  name: application-dev
   version: 577
 
-#eureka:
-#  instance:
-#    prefer-ip-address: true
-#    instance-id: ${spring.cloud.client.ip-address}
-#  client:
-#    service-url:
-#      defaultZone: http://127.0.0.1:20000/eureka
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

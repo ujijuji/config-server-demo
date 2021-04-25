@@ -1,4 +1,10 @@
 app:
-  url: http://baidu.com
-  name: baidu
+  url: http://application.com
+  name: application
   version: 333
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

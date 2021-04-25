@@ -1,0 +1,11 @@
+app:
+  url: http://order-prod.com
+  name: order-prod
+  version: 200
+
+spring:
+  kafka:
+    bootstrap-servers:
+      - localhost:9091
+      - localhost:9092
+      - localhost:9093

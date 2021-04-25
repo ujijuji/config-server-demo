@@ -1,0 +1,9 @@
+app:
+  url: http://order-dev.com
+  name: order-dev
+  version: 100
+
+spring:
+  kafka:
+    bootstrap-servers:
+      - localhost:9090
