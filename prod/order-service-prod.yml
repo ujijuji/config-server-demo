@@ -1,7 +1,7 @@
 app:
   url: http://order-prod.com
   name: order-prod
-  version: 201
+  version: 202
 
 spring:
   kafka:
